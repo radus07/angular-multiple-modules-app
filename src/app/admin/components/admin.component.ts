@@ -1,10 +1,10 @@
 import {Component} from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-admin-section',
   template: `
     <router-outlet></router-outlet>
   `
 })
-export class AppComponent {
+export class AdminComponent {
 }
