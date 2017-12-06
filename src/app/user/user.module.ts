@@ -1,8 +1,8 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {UserComponent} from './components/user.component';
-import {HomeComponent} from './components/home/home.component';
+
+import {HomeComponent, UserComponent} from './components';
 
 import {UserRoutingModule} from './routing/user-routing.module';
 

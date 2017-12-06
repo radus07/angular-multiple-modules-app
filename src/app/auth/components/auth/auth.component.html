@@ -1,0 +1,15 @@
+<div>
+  <h4>Login form</h4>
+  <h5 *ngIf="authErrors" style="color: red">Invalid username or password!</h5>
+  <form [formGroup]="loginForm" (submit)="loginUser(loginForm.value)">
+    <div>
+      <input placeholder="Username*" [formControl]="loginForm.controls['username']">
+    </div>
+    <div>
+      <input type="password" placeholder="Password*" [formControl]="loginForm.controls['password']">
+    </div>
+    <div>
+      <button type="submit">Login</button>
+    </div>
+  </form>
+</div>

@@ -1,9 +1,12 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {AuthComponent} from './components/auth.component';
+
+import {AuthComponent} from './components';
 
 import {AuthRoutingModule} from './routing/auth-routing.module';
+
+import {AuthService} from '../service';
 
 /**
  * This is the module for authentication
@@ -24,7 +27,9 @@ import {AuthRoutingModule} from './routing/auth-routing.module';
     ReactiveFormsModule,
     AuthRoutingModule
   ],
-  providers: []
+  providers: [
+    AuthService
+  ]
 })
 export class AuthModule {
 }
