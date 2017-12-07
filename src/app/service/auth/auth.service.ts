@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
 import {Observable} from 'rxjs/Observable';
 // import the list of users
-import {USERS} from '../index';
+import {USERS} from '../constants/users.const';
 
 /**
  * This is the AuthService
