@@ -1,11 +1,8 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {RouterModule} from '@angular/router';
-import {AppComponent} from './app.component';
 
-import {AuthModule} from './auth/auth.module';
-import {UserModule} from './user/user.module';
-import {AdminModule} from './admin/admin.module';
+import {AdminModule, AppComponent, AuthModule, UserModule} from './';
 
 /**
  * This is the main module of application

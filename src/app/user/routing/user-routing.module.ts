@@ -1,8 +1,7 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 
-import {UserComponent} from '../components/user.component';
-import {HomeComponent} from '../components/home/home.component';
+import {HomeComponent, UserComponent} from '../components';
 
 /**
  * This is the routing module of
